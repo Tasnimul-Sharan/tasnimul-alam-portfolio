@@ -1,0 +1,20 @@
+[
+    {
+      "_id": "62a105ecf7f855d5c494efa3",
+      "picture": "https://i.ibb.co/44ymMbm/project-1.png",
+      "name": "Space Electronics",
+      "description": "It's a Manufacturrer website.You can see all the manufacturrer parts in this website. In the home page there i have added 6 sections. In this project i have implemented admin dashboard.Some features are only visible for admin. Normal user can see only add review, my profile, my order. An admin can see only my profile page. In the manufacturrer parts section when anyone click the purchase button it will take him the parts details page. In the parts details page you see the details about parts and place the order. You see your order on my Order page. In the my order a user can pay the order."
+    },
+    {
+      "_id": "62a105ec26cac1f2d147d879",
+      "picture": "https://i.ibb.co/x1zfN61/projects-2.png",
+      "name": "The Gadget gone",
+      "description": "It's a warehouse related website.Electronics product related.In this website first i have created a simple navbar.In the navbar there are home, gadget, blogs, about, my item, add item, manage item etc pages.in the home page there are five sections.In the gadget section you can see all the gadget item details.In the details page you will see delivered button when you click this button the product quantity will decrease and in the input field there has a button Restock when give an value in input field it will increase the quantity. In this website when you are login on this time you see product details and add items , the added items are show in my items .And all the items show in manage items , in the manage items and my items page there has a Delete button, anone can delete items."
+    },
+    {
+      "_id": "62a105ec9ab49447dc1895e8",
+      "picture": "https://i.ibb.co/dgHM5tf/Project-3.png",
+      "name": "Rapid Learner",
+      "description": "It's an individual service provider website. In the home page there are only five sections.In the service section here you can see only three services, if anyone click on the  enroll now button it will take him or her at the cheackout page .This cheackout page is a private or protected page so it will show a login option. I have used firebase for authentication. In the login form ,if you don't have any account there has a link Please Register when you click on this link it will take you to the register form. In the Register form you can register. In the register form here you can see other options Sign in with google and Sign in with github.And if you already have an account you can see a link Please Login when you click on link it will take you the login form. In the login form you can reset your password.And make sure your email and password is correct otherWise it will show an error.After login, when you enroll it will take you to the checkout page."
+    }
+  ]
