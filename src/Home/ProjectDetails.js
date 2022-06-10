@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   const [project, setProject] = useState([]);
   //   const [projects] = useProject(projectId);
   useEffect(() => {
-    fetch(`project.json/${projectId}`)
+    fetch(`/${projectId}`)
       .then((res) => res.json())
       .then((data) => setProject(data));
   }, []);
@@ -50,16 +50,16 @@ const ProjectDetails = () => {
               <h3>Project information</h3>
               <ul>
                 <li>
-                  <strong>Category</strong>: Web design
+                  <strong>Category</strong>:
                 </li>
                 <li>
                   <strong>Client</strong>: {project}
                 </li>
                 <li>
-                  <strong>Project date</strong>: 01 March, 2020
+                  <strong>Project date</strong>:
                 </li>
                 <li>
-                  <strong>Project URL</strong>: <a href="#">www.example.com</a>
+                  <strong>Project URL</strong>:
                 </li>
               </ul>
             </Card>

@@ -5,7 +5,7 @@ const Skill = ({ skill }) => {
   const { picture } = skill;
   return (
     <div
-      className=" col-sm-1 col-md-3 col-lg-1"
+      className=" g-2 col-sm-12 col-md-6 col-lg-2"
       data-aos="fade-left"
       data-aos-delay="500"
       data-aos-duration="1000"

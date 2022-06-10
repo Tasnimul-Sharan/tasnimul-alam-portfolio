@@ -1,11 +1,13 @@
 import {
   faAtom,
+  faCalendarTimes,
   faFaceSmile,
   faLeaf,
   faSmile,
   faT,
   faTimeline,
   faTimes,
+  faTimesCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -16,84 +18,84 @@ AOS.init();
 
 const Facts = () => {
   return (
-    <section>
-      <div class="container">
-        <div className="my-5">
-          <h1>Facts</h1>
+    <section className="container">
+      {/* <div class="container"> */}
+      <div className="my-5">
+        <h1 className="text-info">Facts</h1>
+      </div>
+      <div class="row shadow-lg">
+        <div
+          class=" g-2 col-lg-3 col-md-6 "
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h1 className="text-primary">
+              <FontAwesomeIcon icon={faLeaf} />
+              <span className="m-2">15+</span>
+            </h1>
+            <p>
+              <strong>Tecnology Used</strong>
+            </p>
+          </div>
         </div>
-        <div class="row shadow-lg">
-          <div
-            class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
-            data-aos="fade-up"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-          >
-            <div class="count-box">
-              <h1 className="text-primary">
-                <FontAwesomeIcon icon={faLeaf} />
-                <span>15+</span>
-              </h1>
-              <p>
-                <strong>Tecnology Used</strong>
-              </p>
-            </div>
+
+        <div
+          class=" g-2 col-lg-3 col-md-6 "
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h1 className="text-primary">
+              <FontAwesomeIcon icon={faAtom} />
+              <span className="m-2">35+</span>
+            </h1>
+
+            <p>
+              <strong>Projects</strong>
+            </p>
           </div>
+        </div>
 
-          <div
-            class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <div>
-              <h1 className="text-primary">
-                <FontAwesomeIcon icon={faAtom} />
-                <span>35+</span>
-              </h1>
+        <div
+          class="g-2 col-lg-3 col-md-6"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <div class="count-box">
+            <h1 className="text-primary">
+              <FontAwesomeIcon icon={faTimeline} />
+              <span>15h+</span>
+            </h1>
 
-              <p>
-                <strong>Projects</strong>
-              </p>
-            </div>
+            <p>
+              <strong>Per day works of time</strong>
+            </p>
           </div>
+        </div>
 
-          <div
-            class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
-            data-aos="fade-up"
-            data-aos-delay="300"
-            data-aos-duration="1000"
-          >
-            <div class="count-box">
-              <h1 className="text-primary">
-                <FontAwesomeIcon icon={faTimeline} />
-                <span>15h+</span>
-              </h1>
+        <div
+          class=" g-2 col-lg-3 col-md-6 "
+          data-aos="fade-up"
+          data-aos-delay="400"
+          data-aos-duration="1000"
+        >
+          <div class="count-box">
+            <h1 className="text-primary">
+              <FontAwesomeIcon icon={faTimesCircle} />
+              <span className="m-2">1.5+</span>
+            </h1>
 
-              <p>
-                <strong>Per day works of time</strong>
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
-            data-aos="fade-up"
-            data-aos-delay="400"
-            data-aos-duration="1000"
-          >
-            <div class="count-box">
-              <h1 className="text-primary">
-                <FontAwesomeIcon icon={faAtom} />
-                <span>1.5+</span>
-              </h1>
-
-              <p>
-                <strong>Years of Success</strong>
-              </p>
-            </div>
+            <p>
+              <strong>Years of Success</strong>
+            </p>
           </div>
         </div>
       </div>
+      {/* </div> */}
     </section>
   );
 };

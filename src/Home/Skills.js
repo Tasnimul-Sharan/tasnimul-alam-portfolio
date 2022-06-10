@@ -9,7 +9,7 @@ const Skills = () => {
       .then((data) => setSkills(data));
   }, []);
   return (
-    <div className="my-5">
+    <div className="my-5 container">
       <h1 className="text-info">My Skills</h1>
       <div className="row my-5">
         {skills.map((skill) => (
