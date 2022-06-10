@@ -26,7 +26,7 @@ const Header = () => {
               defaultActiveKey="/contract"
             >
               <Nav.Link as={Link} to="/contract">
-                Contract Me
+                Contract
               </Nav.Link>
               <Nav.Link as={Link} to="/Skills">
                 Skills
@@ -35,6 +35,9 @@ const Header = () => {
             <Nav>
               <Nav.Link as={Link} to="/projects">
                 Projects
+              </Nav.Link>
+              <Nav.Link as={Link} to="/blogs">
+                Blogs
               </Nav.Link>
               <Nav.Link as={Link} to="/about">
                 About

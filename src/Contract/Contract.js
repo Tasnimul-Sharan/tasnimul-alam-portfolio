@@ -29,7 +29,10 @@ const Contract = () => {
       <h1>Contract With Me</h1>
       <Form
         onSubmit={sendEmail}
-        className="container shadow-lg p-5 w-50 text-bold form-group text-start "
+        className="container shadow-lg p-5 w-50 text-bold form-group text-start"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="1000"
       >
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           {/* <Form.Label>Email address</Form.Label> */}

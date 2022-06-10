@@ -10,7 +10,7 @@ const Projects = () => {
   }, []);
   return (
     <div className="my-5">
-      <h1>My Projects</h1>
+      <h1 className="text-primary">My Projects</h1>
       <div className="row">
         {projects.map((project) => (
           <Project key={project._id} project={project}></Project>

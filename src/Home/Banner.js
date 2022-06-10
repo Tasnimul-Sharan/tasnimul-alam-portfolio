@@ -10,14 +10,15 @@ const Banner = () => {
         </h1>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://drive.google.com/file/d/1pZ7vWqyOEkaBUdlsN-HYesODMDDEXXIA/view?usp=sharing"
         >
-          <button class="btn btn-success px-4">Download Resume</button>
+          <button class="btn btn-outline-success px-4">Download Resume</button>
         </a>
       </div>
       <div class="col-lg-6">
         <img
-          class="img-fluid rounded-circle img-thumbnail w-50"
+          class="img-fluid rounded-circle img-thumbnail w-50 my-3"
           src={banner}
           alt=""
         />
