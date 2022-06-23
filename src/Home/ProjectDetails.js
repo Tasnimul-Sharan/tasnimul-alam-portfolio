@@ -1,22 +1,40 @@
 import React, { useEffect, useState } from "react";
-import { Card, Carousel } from "react-bootstrap";
-import { useParams } from "react-router-dom";
+import { Button, Card, Carousel } from "react-bootstrap";
+import { Link, useParams } from "react-router-dom";
 import useProject from "./Hooks/useProject";
 
 const ProjectDetails = () => {
   const { projectId } = useParams();
-  const [project, setProject] = useState([]);
-  //   const [projects] = useProject(projectId);
+  // const [project, setProject] = useState([]);
+  // const [projects] = useProject(projectId);
+  // useEffect(() => {
+  //   fetch(`http://localhost:5000/projects/${projectId}`)
+  //     .then((res) => res.json())
+  //     .then((data) => setProject(data));
+  // }, []);
+  // const [reload, setReload] = useState(true);
+  const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch(`/${projectId}`)
+    fetch(`http://localhost:5000/projects/${projectId}`)
       .then((res) => res.json())
-      .then((data) => setProject(data));
+      .then((data) => setProjects(data));
+    // setReload(!reload);
   }, []);
-  console.log(project);
+
+  // console.log(projects);
+
+  // const projectUrl = [
+  //   {id: 1, url:"https://warehouse-management-264df.web.app/", }
+  //   {id: 1, url:"https://warehouse-management-264df.web.app/", }
+  //   {id: 1, url:"https://warehouse-management-264df.web.app/", }
+  //   "https://warehouse-management-264df.web.app/",
+  //   "https://independent-service-prov-ba570.web.app/",
+  //   "https://manufacturer-website-c6d47.web.app/",
+  // ];
 
   return (
     <section className="">
-      <h1>Project Details</h1>
+      <h1 className="text-primary">Project Details </h1>
       <div class="container my-5">
         <div class="row gy-4">
           <div class="col-lg-8">
@@ -24,21 +42,21 @@ const ProjectDetails = () => {
               <Carousel.Item interval={1000}>
                 <img
                   className="d-block w-100"
-                  src="holder.js/800x400?text=First slide&bg=373940"
+                  src={projects?.picture}
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item interval={500}>
                 <img
                   className="d-block w-100"
-                  src="holder.js/800x400?text=Second slide&bg=282c34"
+                  src={projects?.pictureTwo}
                   alt="Second slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src={project?.picture}
+                  src={projects?.pictureThree}
                   alt="Third slide"
                 />
               </Carousel.Item>
@@ -46,34 +64,25 @@ const ProjectDetails = () => {
           </div>
 
           <div class="col-lg-4">
-            <Card className="shadow-lg" bg="dark" text="white">
-              <h3>Project information</h3>
+            <Card className="shadow-lg" style={{ width: "20rem" }}>
+              {/* <h3>Project information</h3> */}
+              <h5> {projects?.name}</h5>
               <ul>
-                <li>
-                  <strong>Category</strong>:
-                </li>
-                <li>
-                  <strong>Client</strong>: {project}
-                </li>
-                <li>
-                  <strong>Project date</strong>:
-                </li>
-                <li>
-                  <strong>Project URL</strong>:
-                </li>
+                <li>{projects?.detailsOne}</li>
+                <li>{projects?.detailsTwo}</li>
+                <li>{projects?.detailsThree}</li>
+                <li>{projects?.detailsFour}</li>
+                <li>{projects?.detailsFive}</li>
               </ul>
+              <Card.Footer className="border-0 d-flex justify-content-between">
+                <a target="_blank" rel="noreferrer" href={projects?.ProjectUrl}>
+                  <Button variant="outline-primary">Live Website</Button>
+                </a>
+                <a target="_blank" rel="noreferrer" href={projects?.gitHubLink}>
+                  <Button variant="outline-dark">Github Link</Button>
+                </a>
+              </Card.Footer>
             </Card>
-            {/* <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                itaque inventore commodi labore quia quia. Exercitationem
-                repudiandae officiis neque suscipit non officia eaque itaque
-                enim. Voluptatem officia accusantium nesciunt est omnis tempora
-                consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                eius.
-              </p>
-            </div> */}
           </div>
         </div>
       </div>

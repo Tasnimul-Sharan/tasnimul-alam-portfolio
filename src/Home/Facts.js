@@ -19,7 +19,6 @@ AOS.init();
 const Facts = () => {
   return (
     <section className="container">
-      {/* <div class="container"> */}
       <div className="my-5">
         <h1 className="text-info">Facts</h1>
       </div>
@@ -33,7 +32,7 @@ const Facts = () => {
           <div>
             <h1 className="text-primary">
               <FontAwesomeIcon icon={faLeaf} />
-              <span className="m-2">15+</span>
+              <span className="m-2">19+</span>
             </h1>
             <p>
               <strong>Tecnology Used</strong>
@@ -95,7 +94,6 @@ const Facts = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
     </section>
   );
 };

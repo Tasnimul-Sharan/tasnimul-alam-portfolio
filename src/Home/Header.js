@@ -16,7 +16,7 @@ const Header = () => {
               height="50"
               className="img-fluid rounded-circle"
             />{" "}
-            Tasnimul
+            Tasnimul Alam
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

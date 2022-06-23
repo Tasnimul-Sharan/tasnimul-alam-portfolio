@@ -1,7 +1,7 @@
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import about from "../../src/images/Tasnim.jpg.jpg";
+import about from "../../src/images/Sharan.jpg.jpg";
 import "./About.css";
 
 const About = () => {
@@ -9,30 +9,36 @@ const About = () => {
     <section class="about">
       <div class="container my-5">
         <h1 className="text-primary">About Me</h1>
-        <div class="row my-5">
+        <div class="row my-5 d-flex align-items-center">
           <div
             class="col-lg-4"
-            data-aos="fade-right"
+            data-aos="flip-left"
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <img src={about} class="img-fluid img-thumbnail w-75" alt="" />
+            <img
+              src={about}
+              class="img-fluidx img-thumbnail w-50 my-3"
+              alt=""
+            />
           </div>
           <div
-            class="col-lg-8 pt-4 pt-lg-0 content"
-            data-aos="fade-left"
+            class="col-lg-8  content"
+            data-aos="flip-right"
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <h3>Web Developer.</h3>
-            <p>
-              I am Tasnimul Alam. I am Studing BSc. in Electronics and
-              Communication Engineering.I am always hungry to learn new things+
-              in web development. I always try to implement and developed
-              different things in web development.My hobby is in my free time i
-              like to do watch movies.
-            </p>
-            <div class="row">
+            <h3>Web Developer</h3>
+            <h5>
+              I am Tasnimul Alam. I am studying Electronics and Communication
+              Engineering at the Institute of Science and Technology. I am a
+              very simple, positive, and honest web developer. I have always
+              been interested in web development. I always hungry to learn new
+              things in web development. I always try to implement and develope
+              new and different things in web development.My hobby is in my free
+              time i like to do watch movies.
+            </h5>
+            {/* <div class="row">
               <div class="col-lg-6">
                 <ul>
                   <li>
@@ -84,7 +90,7 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
