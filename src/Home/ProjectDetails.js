@@ -8,14 +8,14 @@ const ProjectDetails = () => {
   // const [project, setProject] = useState([]);
   // const [projects] = useProject(projectId);
   // useEffect(() => {
-  //   fetch(`http://localhost:5000/projects/${projectId}`)
+  //   fetch(`https://enigmatic-tundra-58246.herokuapp.com/projects/${projectId}`)
   //     .then((res) => res.json())
   //     .then((data) => setProject(data));
   // }, []);
   // const [reload, setReload] = useState(true);
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/projects/${projectId}`)
+    fetch(`https://enigmatic-tundra-58246.herokuapp.com/projects/${projectId}`)
       .then((res) => res.json())
       .then((data) => setProjects(data));
     // setReload(!reload);
