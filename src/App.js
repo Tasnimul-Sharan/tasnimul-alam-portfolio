@@ -28,13 +28,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
         </Routes>
-        <a
-          href="#"
-          rel="noreferrer"
-          className="back-to-top d-flex align-items-center justify-content-center"
-        >
-          <FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon>
-        </a>
+
         <Footer />
       </div>
     </div>

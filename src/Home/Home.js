@@ -1,3 +1,5 @@
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Blogs from "../Blogs/Blogs";
 import Contract from "../Contract/Contract";
@@ -19,6 +21,13 @@ const Home = () => {
       <Projects />
       <Blogs />
       <Contract />
+      <a
+        href="#"
+        rel="noreferrer"
+        className="back-to-top d-flex align-items-center justify-content-center"
+      >
+        <FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon>
+      </a>
     </div>
   );
 };

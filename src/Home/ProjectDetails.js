@@ -64,7 +64,10 @@ const ProjectDetails = () => {
           </div>
 
           <div class="col-lg-4">
-            <Card className="shadow-lg" style={{ width: "20rem" }}>
+            <Card
+              className="shadow-lg bg-dark text-white"
+              style={{ width: "20rem" }}
+            >
               {/* <h3>Project information</h3> */}
               <h5> {projects?.name}</h5>
               <ul>
@@ -79,7 +82,7 @@ const ProjectDetails = () => {
                   <Button variant="outline-primary">Live Website</Button>
                 </a>
                 <a target="_blank" rel="noreferrer" href={projects?.gitHubLink}>
-                  <Button variant="outline-dark">Github Link</Button>
+                  <Button variant="outline-success">Github Link</Button>
                 </a>
               </Card.Footer>
             </Card>
