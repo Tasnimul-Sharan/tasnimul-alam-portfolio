@@ -28,8 +28,8 @@ const About = () => {
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <h3>Web Developer</h3>
-            <h5>
+            {/* <h3>Web Developer</h3> */}
+            <h5 className="text-light">
               I am Tasnimul Alam. I am studying Electronics and Communication
               Engineering at the Institute of Science and Technology. I am a
               very simple, positive, and honest web developer. I have always

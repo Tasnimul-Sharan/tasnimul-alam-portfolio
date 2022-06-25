@@ -4,8 +4,14 @@ import { Accordion } from "react-bootstrap";
 const Blogs = () => {
   return (
     <div className="container my-5">
-      <h5>Frequently Asked Questions and Answers</h5>
-      <div className="my-5">
+      <h1 className="text-primary">Blogs</h1>
+      <h3 className="text-info">Frequently Asked Questions and Answers</h3>
+      <div
+        className="my-5"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      >
         <Accordion>
           <Accordion.Item eventKey="0">
             <Accordion.Header>

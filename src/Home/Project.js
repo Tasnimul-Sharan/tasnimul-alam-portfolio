@@ -11,7 +11,7 @@ const Project = ({ project }) => {
       data-aos-delay="500"
       data-aos-duration="1000"
     >
-      <Card className="shadow-lg border-0">
+      <Card className="shadow-lg border-0 bg-dark text-light">
         <Card.Img variant="top" src={picture} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>

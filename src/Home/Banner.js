@@ -1,9 +1,10 @@
 import React from "react";
 import banner from "../../src/images/Sharan.jpg.jpg";
+import "../App.css";
 
 const Banner = () => {
   return (
-    <div class="row p-5 d-flex align-items-center bg-dark text-white">
+    <div class="row p-5 d-flex align-items-center bg-dark text-white ">
       <div class="col-lg-6">
         <h1 className="ms-auto text-info">
           Tasnimul Alam <br /> Font-End Web developer
@@ -23,7 +24,7 @@ const Banner = () => {
         data-aos-duration="1000"
       >
         <img
-          class="img-fluid rounded-circle img-thumbnail w-50 my-3"
+          class="img-fluid rounded-circle img-thumbnail w-50 my-5"
           src={banner}
           alt=""
         />

@@ -1,50 +1,75 @@
 [
     {
       "_id": "62a33adc8d8860f1f645fa90",
-      "picture": "https://i.ibb.co/RcLrmGZ/Java-Script.jpg"
+      "picture": "https://i.ibb.co/RcLrmGZ/Java-Script.jpg",
+      "name": "JavaScript", 
+      "now": 86
+      
     },
     {
       "_id": "62a33adc8d8860f1f645fa90",
-      "picture": "https://i.ibb.co/GcC3g1n/logo192.png"
+      "picture": "https://i.ibb.co/GcC3g1n/logo192.png",
+      "name": "React", 
+      "now": 88
     },
     {
       "_id": "62a33adc6b2462ec2b3d1f86",
-      "picture": "https://i.ibb.co/BzB8jmW/HTML.png"
+      "picture": "https://i.ibb.co/BzB8jmW/HTML.png",
+      "name": "HTML", 
+      "now": 86
     },
     {
       "_id": "62a33adc8ace5048528d574b",
-      "picture": "https://i.ibb.co/PxTD2cd/CSS.png"
+      "picture": "https://i.ibb.co/PxTD2cd/CSS.png",
+      "name": "CSS", 
+      "now": 89
     },
     {
       "_id": "62a33adcd72ed5c582db1917",
-      "picture": "https://i.ibb.co/h2qKKFX/Boot-Strap.png"
+      "picture": "https://i.ibb.co/h2qKKFX/Boot-Strap.png",
+      "name": "BootStrap", 
+      "now": 90
     },
     {
       "_id": "62a33adc35ab18eb13bb8858",
-      "picture": "https://i.ibb.co/7g0N7Lv/Tailwind-Css.jpg"
+      "picture": "https://i.ibb.co/7g0N7Lv/Tailwind-Css.jpg",
+      "name": "Tailwind CSS", 
+      "now": 86
     },
     {
       "_id": "62a33adc6b2462ec2b3d1f86",
-      "picture": "https://i.ibb.co/GpsccvT/Firebase.png"
+      "picture": "https://i.ibb.co/GpsccvT/Firebase.png",
+      "name": "Firebase", 
+      "now": 88
     },
     {
       "_id": "62a33adc8ace5048528d574b",
-      "picture": "https://i.ibb.co/k2KJ0GM/Expressjs.png"
+      "picture": "https://i.ibb.co/k2KJ0GM/Expressjs.png",
+      "name": "Expressjs", 
+      "now": 80
     },
     {
       "_id": "62a33adcd72ed5c582db1917",
-      "picture": "https://i.ibb.co/nb4WNjr/Nodejs.png"
+      "picture": "https://i.ibb.co/nb4WNjr/Nodejs.png",
+       "name": "Nodejs", 
+      "now": 80
     },
     {
       "_id": "62a33adc35ab18eb13bb8858",
-      "picture": "https://i.ibb.co/Cv22bkK/MongoDB.jpg"
+      "picture": "https://i.ibb.co/Cv22bkK/MongoDB.jpg",
+       "name": "MongoDB", 
+      "now": 80
     },
     {
       "_id": "62a33adcd72ed5c582db1917",
-      "picture": "https://cdn-icons-png.flaticon.com/512/873/873120.png?w=740"
+      "picture": "https://cdn-icons-png.flaticon.com/512/873/873120.png?w=740",
+       "name": "Heroku", 
+      "now": 90
     },
     {
       "_id": "62a33adc35ab18eb13bb8858",
-      "picture": "https://i.ibb.co/Tqp8L9D/dontknow.png"
+      "picture": "https://v4.mui.com/static/logo.png",
+       "name": "Metrarial Ui", 
+      "now": 75
     }
   ]

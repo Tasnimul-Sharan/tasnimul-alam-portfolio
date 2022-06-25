@@ -26,12 +26,13 @@ const Contract = () => {
   };
 
   return (
-    <section className="">
-      <h1 className="text-primary">Contract With Me</h1>
+    <section>
+      <h1 className="text-primary">Contract Me</h1>
+      <h3 className="text-info">Stay Connected With Me</h3>
       <div class="container my-5">
-        <div class="row gy-4">
+        <div class="row gy-5">
           <div
-            class="col-lg-4"
+            class="col-lg-7"
             data-aos="flip-left"
             data-aos-delay="100"
             data-aos-duration="1000"
@@ -39,17 +40,17 @@ const Contract = () => {
             <img className="w-100" src={contract} alt="" />
           </div>
 
-          <div class="col-lg-8">
+          <div class="col-lg-5">
             <Card
               className="shadow-lg"
               data-aos="flip-right"
               data-aos-delay="100"
               data-aos-duration="1000"
-              style={{ width: "30rem" }}
+              style={{ width: "26rem" }}
             >
               <Form
                 onSubmit={sendEmail}
-                className="container  p-5 text-bold form-group text-start"
+                className="container  p-5 text-bold form-group text-start "
               >
                 <Form.Group
                   className="mb-3"

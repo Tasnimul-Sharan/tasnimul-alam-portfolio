@@ -22,7 +22,7 @@ const Facts = () => {
       <div className="my-5">
         <h1 className="text-info">Facts</h1>
       </div>
-      <div class="row shadow-lg">
+      <div class="row shadow-lg text-light">
         <div
           class=" g-2 col-lg-3 col-md-6 "
           data-aos="fade-up"
