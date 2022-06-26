@@ -102,41 +102,6 @@ const Contract = () => {
         </div>
       </div>
     </section>
-    // <div className="my-5">
-    //   <h1>Contract With Me</h1>
-    //   <Form
-    //     onSubmit={sendEmail}
-    //     className="container shadow-lg p-5 w-50 text-bold form-group text-start"
-    //     data-aos="fade-up"
-    //     data-aos-delay="500"
-    //     data-aos-duration="1000"
-    //   >
-    //     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    //       {/* <Form.Label>Email address</Form.Label> */}
-    //       <Form.Control type="text" name="user_name" placeholder="Enter Name" />
-    //     </Form.Group>
-    //     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    //       {/* <Form.Label>Email address</Form.Label> */}
-    //       <Form.Control type="email" name="email" placeholder="Enter Email" />
-    //     </Form.Group>
-    //     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    //       {/* <Form.Label>Email address</Form.Label> */}
-    //       <Form.Control type="number" placeholder="Phone Number" />
-    //     </Form.Group>
-    //     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    //       {/* <Form.Label>Example textarea</Form.Label> */}
-    //       <Form.Control
-    //         as="textarea"
-    //         rows={3}
-    //         name="message"
-    //         placeholder="Message"
-    //       />
-    //     </Form.Group>
-    //     <Button variant="btn btn-success" type="submit">
-    //       Submit
-    //     </Button>
-    //   </Form>
-    // </div>
   );
 };
 

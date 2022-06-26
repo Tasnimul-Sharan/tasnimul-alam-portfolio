@@ -22,7 +22,7 @@ const Skill = ({ skill }) => {
         style={{ width: "18rem" }}
       >
         <Card.Body>
-          <Card.Img className="w-50 img-fluid" src={picture} />
+          <Card.Img className=" img-fluid" src={picture} />
           <h5>{name}</h5>
           <ProgressBar now={now} label={`${now}%`} />
         </Card.Body>
@@ -30,5 +30,4 @@ const Skill = ({ skill }) => {
     </div>
   );
 };
-
 export default Skill;
