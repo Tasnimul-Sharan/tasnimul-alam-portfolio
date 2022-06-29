@@ -19,7 +19,7 @@ const Skill = ({ skill }) => {
         className="shadow-lg"
         text="light"
         bg="dark"
-        style={{ width: "18rem" }}
+        style={{ width: "15rem" }}
       >
         <Card.Body>
           <Card.Img className=" img-fluid" src={picture} />

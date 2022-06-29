@@ -56,7 +56,6 @@ const Contract = () => {
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
                 >
-                  {/* <Form.Label>Email address</Form.Label> */}
                   <Form.Control
                     type="text"
                     name="user_name"
@@ -67,25 +66,22 @@ const Contract = () => {
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
                 >
-                  {/* <Form.Label>Email address</Form.Label> */}
                   <Form.Control
                     type="email"
                     name="email"
                     placeholder="Enter Email"
                   />
                 </Form.Group>
-                <Form.Group
+                {/* <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
                 >
-                  {/* <Form.Label>Email address</Form.Label> */}
                   <Form.Control type="number" placeholder="Phone Number" />
-                </Form.Group>
+                </Form.Group> */}
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlTextarea1"
                 >
-                  {/* <Form.Label>Example textarea</Form.Label> */}
                   <Form.Control
                     as="textarea"
                     rows={3}

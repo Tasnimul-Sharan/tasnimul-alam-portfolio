@@ -4,6 +4,7 @@ import React from "react";
 import Blogs from "../Blogs/Blogs";
 import Contract from "../Contract/Contract";
 import About from "./About";
+import Arrow from "./Arrow";
 import Banner from "./Banner";
 import Facts from "./Facts";
 import Projects from "./Projects";
@@ -21,13 +22,7 @@ const Home = () => {
       <Projects />
       <Blogs />
       <Contract />
-      <a
-        href="#"
-        rel="noreferrer"
-        className="back-to-top d-flex align-items-center justify-content-center"
-      >
-        <FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon>
-      </a>
+      <Arrow />
     </div>
   );
 };

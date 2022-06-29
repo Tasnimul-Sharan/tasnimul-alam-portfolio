@@ -19,9 +19,9 @@ const Banner = () => {
       </div>
       <div
         class="col-lg-6"
-        data-aos="fade-right"
-        data-aos-delay="100"
-        data-aos-duration="1000"
+        // data-aos="fade-right"
+        // data-aos-delay="100"
+        // data-aos-duration="1000"
       >
         <img
           class="img-fluid rounded-circle img-thumbnail w-50 my-5"
