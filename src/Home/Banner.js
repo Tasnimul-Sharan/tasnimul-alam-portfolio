@@ -7,7 +7,7 @@ const Banner = () => {
     <div class="row p-5 d-flex align-items-center bg-dark text-white ">
       <div class="col-lg-6">
         <h1 className="ms-auto text-info">
-          Tasnimul Alam <br /> Font-End Web developer
+          Tasnimul Alam <br /> Full Stack Developer
         </h1>
         <a
           target="_blank"

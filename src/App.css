@@ -51,10 +51,10 @@
   background: #2eafec;
   color: #fff;
 }
-.back-to-top.active {
+/* .back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 .App-link {
   color: #61dafb;

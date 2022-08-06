@@ -22,7 +22,7 @@ const Home = () => {
       <Projects />
       <Blogs />
       <Contract />
-      <Arrow />
+      <Arrow></Arrow>
     </div>
   );
 };

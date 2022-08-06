@@ -33,10 +33,10 @@ const About = () => {
               I am Tasnimul Alam. I am studying Electronics and Communication
               Engineering at the Institute of Science and Technology. I am a
               very simple, positive, and honest web developer. I have always
-              been interested in web development. I always hungry to learn new
-              things in web development. I always try to implement and develope
-              new and different things in web development.My hobby is in my free
-              time i like to do watch movies.
+              been interested in web development. I am always hungry to learn
+              new things in web development. I always try to implement and
+              develope new and different things in web development.My hobby is
+              in my free time i like to do watch movies.
             </h5>
             {/* <div class="row">
               <div class="col-lg-6">
