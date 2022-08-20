@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import picture from "../../src/images/Sharan.jpg.jpg";
+import code from "../../src/images/Code Dots_1.jpg";
 
 const Header = () => {
   return (
@@ -11,9 +11,9 @@ const Header = () => {
           <Navbar.Brand href="/">
             <img
               alt=""
-              src={picture}
-              width="50"
-              height="50"
+              src={code}s
+              width="60"
+              height="60"
               className="img-fluid rounded-circle"
             />{" "}
             Tasnimul Alam

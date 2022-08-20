@@ -7,7 +7,7 @@ const Banner = () => {
     <div class="row p-5 d-flex align-items-center bg-dark text-white ">
       <div class="col-lg-6">
         <h1 className="ms-auto text-info">
-          Tasnimul Alam <br /> Full Stack Developer
+          Tasnimul Alam <br /> Full Stack Web Developer
         </h1>
         <a
           target="_blank"
@@ -17,12 +17,7 @@ const Banner = () => {
           <button class="btn btn-outline-success px-4">Download Resume</button>
         </a>
       </div>
-      <div
-        class="col-lg-6"
-        // data-aos="fade-right"
-        // data-aos-delay="100"
-        // data-aos-duration="1000"
-      >
+      <div class="col-lg-6">
         <img
           class="img-fluid rounded-circle img-thumbnail w-50 my-5"
           src={banner}

@@ -10,6 +10,7 @@ import Facts from "./Facts";
 import Projects from "./Projects";
 import Services from "./Services";
 import Skills from "./Skills";
+import Achivements from "./Achivements";
 
 const Home = () => {
   return (
@@ -18,8 +19,9 @@ const Home = () => {
       <About />
       <Facts />
       <Skills />
-      {/* <Services /> */}
+      {/* <Services />  */}
       <Projects />
+      <Achivements />
       <Blogs />
       <Contract />
       <Arrow></Arrow>
