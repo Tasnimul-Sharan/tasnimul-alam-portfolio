@@ -11,6 +11,7 @@ import ProjectDetails from "./Home/ProjectDetails";
 import About from "./Home/About";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import Skills from "./Home/Skills";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             element={<ProjectDetails />}
           />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/about" element={<About />} />
         </Routes>
 

@@ -4,9 +4,9 @@ import certificate from "../../src/images/Tasnimul Alam_1.JPEG";
 
 const Achivements = () => {
   return (
-    <div className="my-5 container">
+    <div className="container">
       <h1 className="text-info">My Achivements</h1>
-      <div className="row">
+      <div className="row my-5">
         <div
           className="col-lg-6"
           data-aos="flip-left"

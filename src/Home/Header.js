@@ -11,7 +11,8 @@ const Header = () => {
           <Navbar.Brand href="/">
             <img
               alt=""
-              src={code}s
+              src={code}
+              s
               width="60"
               height="60"
               className="img-fluid rounded-circle"
@@ -33,7 +34,7 @@ const Header = () => {
               </Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link as={Link} to="/projects">
+              <Nav.Link as={Link} to="projets/:projectId">
                 Projects
               </Nav.Link>
               <Nav.Link as={Link} to="/blogs">

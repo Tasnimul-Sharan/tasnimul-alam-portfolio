@@ -32,9 +32,11 @@ const About = () => {
             <h5 className="text-light">
               I am Tasnimul Alam. I am studying Electronics and Communication
               Engineering at the Institute of Science and Technology. I am a
-              very simple, positive, and honest web developer. I have always
-              been interested in web development. I am always hungry to learn
-              new things in web development. I always try to implement and
+              very simple, positive, and honest web developer.I have always been
+              interested in web development. I take my work as a Web Developer
+              seriously and this means I always ensure my skills are kept up to
+              date within this rapidly changing industry. I am always hungry to
+              learn new things in web development.I always try to implement and
               develope new and different things in web development.My hobby is
               in my free time i like to do watch movies.
             </h5>

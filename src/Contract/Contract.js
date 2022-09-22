@@ -32,15 +32,15 @@ const Contract = () => {
       <div class="container my-5">
         <div class="row gy-5">
           <div
-            class="col-lg-7"
+            class="col-lg-7 col-sm-12"
             data-aos="flip-left"
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <img className="w-100" src={contract} alt="" />
+            <img className="w-75" src={contract} alt="" />
           </div>
 
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-sm-12">
             <Card
               className="shadow-lg"
               data-aos="flip-right"
