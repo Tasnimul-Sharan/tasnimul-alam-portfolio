@@ -5,7 +5,7 @@ import "../App.css";
 const Banner = () => {
   return (
     <div class="row p-5 d-flex align-items-center bg-dark text-white ">
-      <div class="col-lg-6">
+      <div class="text-start col-lg-6">
         <h1 className="ms-auto text-info">
           Tasnimul Alam <br /> Full Stack Web Developer
         </h1>

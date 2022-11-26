@@ -4,7 +4,7 @@ import QA from "../../src/images/hand-holding-q-wooden-cube-block_42256-1481.png
 
 const Blogs = () => {
   return (
-    <div className="container w-50">
+    <div className="container w-75">
       <h1 className="text-primary">Blogs</h1>
       <h3 className="text-info">Frequently Asked Questions and Answers</h3>
       {/* <div className="gy-5 row"> */}

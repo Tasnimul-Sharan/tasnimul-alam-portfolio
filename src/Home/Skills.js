@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div className="my-5 container">
       <h1 className="text-info">My Skills</h1>
-      <div className="row my-5 ms-2">
+      <div className="row my-5 ms-5">
         {skills.map((skill) => (
           <Skill key={skill._id} skill={skill}></Skill>
         ))}
