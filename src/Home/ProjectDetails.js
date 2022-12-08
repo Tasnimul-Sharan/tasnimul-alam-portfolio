@@ -8,14 +8,14 @@ const ProjectDetails = () => {
   // const [project, setProject] = useState([]);
   // const [projects] = useProject(projectId);
   // useEffect(() => {
-  //   fetch(`https://enigmatic-tundra-58246.herokuapp.com/projects/${projectId}`)
+  //   fetch(`https://tasnimul-portfolio-server.vercel.app/projects/${projectId}`)
   //     .then((res) => res.json())
   //     .then((data) => setProject(data));
   // }, []);
   // const [reload, setReload] = useState(true);
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch(`https://enigmatic-tundra-58246.herokuapp.com/projects/${projectId}`)
+    fetch(`https://tasnimul-portfolio-server.vercel.app/projects/${projectId}`)
       .then((res) => res.json())
       .then((data) => setProjects(data));
     // setReload(!reload);
