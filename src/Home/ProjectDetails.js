@@ -21,17 +21,6 @@ const ProjectDetails = () => {
     // setReload(!reload);
   }, []);
 
-  // console.log(projects);
-
-  // const projectUrl = [
-  //   {id: 1, url:"https://warehouse-management-264df.web.app/", }
-  //   {id: 1, url:"https://warehouse-management-264df.web.app/", }
-  //   {id: 1, url:"https://warehouse-management-264df.web.app/", }
-  //   "https://warehouse-management-264df.web.app/",
-  //   "https://independent-service-prov-ba570.web.app/",
-  //   "https://manufacturer-website-c6d47.web.app/",
-  // ];
-
   return (
     <section className="">
       <h1 className="text-primary">Project Details </h1>
