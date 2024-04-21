@@ -146,7 +146,7 @@ const Banner = () => {
           rel="noreferrer"
           href="https://drive.google.com/file/d/1uTJ3QUj60SR2G7DubeVKMHX9oRfe3pv2/view?usp=sharing"
         >
-          <button className="mt-6 px-6 py-3 bg-[#149ddd] text-white rounded-md hover:bg-[#389fce] hover:text-gray-900 text-xl">
+          <button className="mt-6 px-6 py-3 bg-[#149ddd] text-white rounded-md hover:bg-[#389fce] text-xl">
             Download Resume
           </button>
         </a>

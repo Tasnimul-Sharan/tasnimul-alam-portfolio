@@ -21,7 +21,8 @@ const Project = ({ project }) => {
             <p className="text-sm mt-2">{description}</p>
             <div className="mt-3">
             <Link to={path}>
-              <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition duration-300">
+            
+              <button className="bg-[#149ddd] text-white rounded-md hover:bg-[#389fce] px-4 py-2 transition duration-300">
                 Details
               </button>
             </Link>

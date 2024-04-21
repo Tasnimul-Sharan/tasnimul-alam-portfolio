@@ -95,7 +95,7 @@ const Contact = () => {
         "service_38i0g0r",
         "template_qurk0ng",
         e.target,
-        "Bt4fEQO7x7yDOUxOd"
+        "HwC4jG-appfvaT92v"
       );
       swal("Thank you", "Email sent", "success");
       e.target.reset();
