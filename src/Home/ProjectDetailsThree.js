@@ -206,24 +206,26 @@ import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import "react-awesome-slider/dist/styles.css";
 import AwesomeSlider from 'react-awesome-slider';
 
-const ProjectDetails = () => {
+const ProjectDetailsThree = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
 
-  const projects =  {
-    _id: "62a105ecf7f855d5c494efa3",
-    picture: "https://i.ibb.co/44ymMbm/project-1.png",
-    pictureTwo: "https://i.ibb.co/hWHzK0X/picture-Six.png",
-    pictureThree: "https://i.ibb.co/0DTn76m/picture-Seven.png",
-    name: "Space Electronics",
-    path: "/projetdetil",
-    description: "It's a Manufacturrer website.You can see all the manufacturrer parts in this website. In the home page there i have added 6 sections.it's an admin dashboard.Some features are only visible for admin. Normal user can see only add review, my profile, my order. An admin can see only my profile page.",
-    detailsOne: "created Admin Dashboard, created an Admin role. An admin can make another admin.",
-    detailsTwo: "implemented email-password based authentication and one social authentication system.",
-    detailsThree: "implemented jwt token in client side and verify it in server side.",
-    detailsFour: "After login, a user can place the order. An user can see their products on my order page and give feedback by ratings.",
-    detailsFive: "Implemented payment process.Make the full website responsive.",
-    ProjectUrl: "https://manufacturer-website-c6d47.web.app/myportfolio",
-    gitHubLink: "https://github.com/Tasnimul-Sharan/manufacturer-website-client-side"
+  const projects = {
+    _id: "62a105ec9ab49447dc1895e8",
+    picture: "https://i.ibb.co/dgHM5tf/Project-3.png",
+    pictureTwo: "https://i.ibb.co/rxXgbmv/picture-Two.png",
+    pictureThree: "https://i.ibb.co/3yR839P/picture-Three.png",
+    name: "Rapid Learner",
+    description:
+      "It's an individual service provider website. In the home page, there are only five sections...",
+    detailsOne: "Implemented Firebase Authentication System, Using a Private route.",
+    detailsTwo: "After login, when you enroll, it will take you to the checkout page.",
+    detailsThree:
+      "Made the website responsive for mobile devices and large screens.",
+    detailsFour:
+      "Created a Blogs page, containing Q&A.",
+    detailsFive: "Developed 'My Successful Students' and 'About Me' sections.",
+    ProjectUrl: "https://independent-service-prov-ba570.web.app/",
+    gitHubLink: "https://github.com/Tasnimul-Sharan/-independent-service-provider-website",
   };
 
   const photos = [
@@ -265,7 +267,7 @@ const ProjectDetails = () => {
 
           <div className="lg:col-span-1 bg-white rounded-lg p-6 shadow-md">
             <h5 className="text-xl text-justify font-semibold mb-4">{projects.name}</h5>
-            <ul className="list-disc text-justify pl-6">
+            <ul className="list-disc pl-6">
               <li>{projects.detailsOne}</li>
               <li>{projects.detailsTwo}</li>
               <li>{projects.detailsThree}</li>
@@ -299,4 +301,4 @@ const ProjectDetails = () => {
   );
 };
 
-export default ProjectDetails;
+export default ProjectDetailsThree;

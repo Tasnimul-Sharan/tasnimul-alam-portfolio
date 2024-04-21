@@ -12,6 +12,8 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import Skills from "./Home/Skills";
 import Footer from "./Home/Footer";
 import Contact from "./Contact/Contact";
+import ProjectDetailsTwo from "./Home/ProjectDetailsTwo";
+import ProjectDetailsThree from "./Home/ProjectDetailsThree";
 // import{ useCallback } from "react";
 // import Particles from "react-particles";
 // import { loadFull } from "tsparticles";
@@ -92,10 +94,18 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="/projets/:projectId" element={<Projects />} />
+          <Route path="/projets" element={<Projects />} />
           <Route
             path="/projetdetails"
             element={<ProjectDetails />}
+          />
+          <Route
+            path="/projectDetailsTwo"
+            element={<ProjectDetailsTwo />}
+          />
+          <Route
+            path="/projectDetailsThree"
+            element={<ProjectDetailsThree />}
           />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/skills" element={<Skills />} />

@@ -30,44 +30,6 @@ const Header = () => {
 
   return (
     <header className="bg-gray-950 shadow-lg sticky top-0 z-40 backdrop-blur-md backdrop-hue-rotate-30 w-full transition-all duration-300 ease-in-out">
-      {/* <nav className="container mx-auto py-4 flex flex-wrap items-center justify-between">
-        <Link to="/" className="flex items-center text-2xl text-white font-bold">
-          <img alt="" src={code} width="60" height="60" className="rounded-lg mr-2" />
-        </Link>
-        <button
-          className="lg:hidden text-white focus:outline-none"
-          onClick={toggleNav}
-        >
-          {isNavOpen ? (
-            // Close icon (X)
-            <MenuIcon />
-          ) : (
-            // Menu icon
-            <MenuIcon />
-          )}
-        </button>
-        <ul
-          className={`${
-            isNavOpen ? "block" : "hidden"
-          } lg:flex space-x-4 text-white lg:space-x-6`}
-        >
-          <li>
-            <Link to="/contract">Contract</Link>
-          </li>
-          <li>
-            <Link to="/Skills">Skills</Link>
-          </li>
-          <li>
-            <Link to="/projets/:projectId">Projects</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul>
-      </nav> */}
       <nav className="container mx-auto py-4 flex items-center justify-between">
   <Link to="/" className="flex items-center text-2xl text-white font-bold">
     <img alt="" src={code} width="60" height="60" className="rounded-lg mr-2" />
@@ -77,7 +39,6 @@ const Header = () => {
     onClick={toggleNav}
   >
     {isNavOpen ? (
-      // Close icon (X)
       <MenuIcon />
     ) : (
       // Menu icon
@@ -90,13 +51,13 @@ const Header = () => {
     } lg:flex space-x-4 text-white lg:space-x-6 lg:items-center`}
   >
     <li>
-      <Link className="block font-semibold md:inline-block p-2 mt-4 md:mt-0 rounded-lg hover:text-white hover:bg-[#149ddd] transition-all duration-300 ease-in-out" to="/contract">Contact</Link>
+      <Link className="block font-semibold md:inline-block p-2 mt-4 md:mt-0 rounded-lg hover:text-white hover:bg-[#149ddd] transition-all duration-300 ease-in-out" to="/contact">Contact</Link>
     </li>
     <li>
       <Link className="block font-semibold md:inline-block p-2 mt-4 md:mt-0 rounded-lg hover:text-white hover:bg-[#149ddd] transition-all duration-300 ease-in-out" to="/Skills">Skills</Link>
     </li>
     <li>
-      <Link className="block font-semibold md:inline-block p-2 mt-4 md:mt-0 rounded-lg hover:text-white hover:bg-[#149ddd] transition-all duration-300 ease-in-out" to="/projets/:projectId">Projects</Link>
+      <Link className="block font-semibold md:inline-block p-2 mt-4 md:mt-0 rounded-lg hover:text-white hover:bg-[#149ddd] transition-all duration-300 ease-in-out" to="/projets">Projects</Link>
     </li>
     <li>
       <Link className="block font-semibold md:inline-block p-2 mt-4 md:mt-0 rounded-lg hover:text-white hover:bg-[#149ddd] transition-all duration-300 ease-in-out" to="/blogs">Blogs</Link>
