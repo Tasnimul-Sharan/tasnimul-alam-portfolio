@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookSquare, FaLinkedin, FaSkype, FaYoutube } from 'react-icons/fa';
+import { FaFacebookSquare, FaGithub, FaLinkedin, FaSkype, FaYoutube } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
     <p className="text-lg">Tasnimul Alam</p>
     <div className="mt-4 flex justify-center">
       <a
-        href="#your-facebook-link"
+        href="https://www.facebook.com/tasnimul.sharan.397"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-600 mx-2"
@@ -19,7 +19,7 @@ const Footer = () => {
         <FaFacebookSquare size={32} />
       </a>
       <a
-        href="#your-linkedin-link"
+        href="https://www.linkedin.com/in/tasnimul-alam-32b70a182/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-600 mx-2"
@@ -35,12 +35,12 @@ const Footer = () => {
         <FaSkype size={32} />
       </a>
       <a
-        href="#your-youtube-link"
+        href="https://github.com/Tasnimul-Sharan"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-red-700 mx-2"
+        className="text-white hover:text-slate-500 mx-2"
       >
-        <FaYoutube size={32} />
+        <FaGithub size={32} />
       </a>
     </div>
   </div>
