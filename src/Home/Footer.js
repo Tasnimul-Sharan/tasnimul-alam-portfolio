@@ -27,7 +27,7 @@ const Footer = () => {
         <FaLinkedin size={32} />
       </a>
       <a
-        href="#your-skype-link"
+        href="#skype-link"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-600 mx-2"

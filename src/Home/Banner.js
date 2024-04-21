@@ -144,7 +144,7 @@ const Banner = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1pZ7vWqyOEkaBUdlsN-HYesODMDDEXXIA/view?usp=sharing"
+          href="https://drive.google.com/file/d/1uTJ3QUj60SR2G7DubeVKMHX9oRfe3pv2/view?usp=sharing"
         >
           <button className="mt-6 px-6 py-3 bg-green-500 text-white rounded-md hover:bg-green-600 hover:text-gray-900 text-xl">
             Download Resume

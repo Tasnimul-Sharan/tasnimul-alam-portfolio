@@ -75,7 +75,7 @@ const Achievements = () => {
             <div className="p-6 text-center">
               <FaTrophy className="text-3xl text-yellow-500 mb-4" />
               <h2 className="text-2xl font-semibold mb-4">Achieved Black Belt in Web Development</h2>
-              <p className="text-sm font-medium">
+              <p className="text-lg font-medium">
                 I earned my Black Belt in Web Development through dedication and hard work.
               </p>
             </div>
@@ -93,7 +93,7 @@ const Achievements = () => {
             <div className="p-6 text-center">
               <FaCertificate className="text-3xl text-green-500 mb-4" />
               <h2 className="text-2xl font-semibold mb-4">Received Certificate of Excellence</h2>
-              <p className="text-sm font-medium">
+              <p className="text-lg font-medium">
                 I was honored with a Certificate of Web Development for my outstanding performance.
               </p>
             </div>
