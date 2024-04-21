@@ -111,7 +111,7 @@ const Banner = () => {
         </h1>
         <div className="mt-4 space-x-4 flex">
           <a
-            href="https://www.facebook.com/your-facebook-profile"
+            href="https://www.facebook.com/tasnimul.sharan.397"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl text-white hover:text-blue-600 "
@@ -119,7 +119,7 @@ const Banner = () => {
             <FaFacebook />
           </a>
           <a
-            href="https://www.linkedin.com/in/your-linkedin-profile"
+            href="https://www.linkedin.com/in/tasnimul-alam-32b70a182/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl text-white hover:text-blue-600 "
@@ -127,15 +127,15 @@ const Banner = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/your-github-profile"
+            href="https://github.com/Tasnimul-Sharan"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-3xl text-white hover:text-blue-600 "
+            className="text-3xl text-white hover:text-slate-500 "
           >
             <FaGithub />
           </a>
           <a
-            href="skype:your-skype-id?chat"
+            href="skype-id"
             className="text-3xl text-white hover:text-blue-600 "
           >
             <FaSkype />
