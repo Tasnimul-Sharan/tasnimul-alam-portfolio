@@ -1,27 +1,161 @@
-import React from "react";
-import banner from "../../src/images/Sharan.jpg.jpg";
-import "../App.css";
+import React, { useEffect, useMemo, useState } from "react";
+import { FaFacebook, FaLinkedin, FaGithub, FaSkype } from "react-icons/fa";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim"; 
+import Typewriter from 'typewriter-effect';
+import programer from '../../src/images/animation_2.gif';
 
 const Banner = () => {
+  const [init, setInit] = useState(false);
+
+  // this should be run only once per application lifetime
+  useEffect(() => {
+    const initializeParticles = async () => {
+      await loadSlim(window.particles);
+      setInit(true);
+    };
+
+    initializeParticles();
+  }, []);
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
+
+  const options = useMemo(
+    () => ({
+      fpsLimit: 120,
+      interactivity: {
+        events: {
+          onClick: {
+            enable: true,
+            mode: "push",
+          },
+          onHover: {
+            enable: true,
+            mode: "repulse",
+          },
+        },
+        modes: {
+          push: {
+            quantity: 4,
+          },
+          repulse: {
+            distance: 200,
+            duration: 0.4,
+          },
+        },
+      },
+      particles: {
+        color: {
+          value: ["#ffffff", "#ff0000", "#00ff00", "#0000ff", "#ffff00"], // Array of random colors
+        },
+        links: {
+          color: "#ffffff",
+          distance: 150,
+          enable: true,
+          opacity: 0.5,
+          width: 1,
+        },
+        move: {
+          direction: "none",
+          enable: true,
+          outModes: {
+            default: "bounce",
+          },
+          random: false,
+          speed: 6,
+          straight: false,
+        },
+        fullScreen: { enable: false },
+        number: {
+          density: {
+            enable: true,
+          },
+          value: 80,
+        },
+        opacity: {
+          value: 0.5,
+        },
+        shape: {
+          type: "circle",
+        },
+        size: {
+          value: { min: 1, max: 5 },
+        },
+      },
+      detectRetina: true,
+    }),
+    [],
+  );
+  
   return (
-    <div class="row p-5 d-flex align-items-center bg-dark text-white ">
-      <div class="text-start col-lg-6">
-        <h1 className="ms-auto text-info">
-          Tasnimul Alam <br /> Full Stack Web Developer
+    <div className="bg-gray-950 text-white py-24 px-5 md:flex md:items-center relative">
+        {init && (
+        <Particles
+          id="tsparticles"
+          particlesLoaded={particlesLoaded}
+          options={options}
+        />
+      )}
+      <div className="md:w-1/2 md:text-left lg:pl-24">
+        <h1 className="text-4xl font-bold">
+          Hi, I'm <span className="text-sky-800">Tasnimul Alam</span> <br />
+          <Typewriter
+            options={{
+              strings: ['Web Developer', 'Front End Developer', 'Full Stack Developer', 'Software Developer'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </h1>
+        <div className="mt-4 space-x-4 flex">
+          <a
+            href="https://www.facebook.com/your-facebook-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl text-white hover:text-blue-600 "
+          >
+            <FaFacebook />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/your-linkedin-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl text-white hover:text-blue-600 "
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/your-github-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl text-white hover:text-blue-600 "
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="skype:your-skype-id?chat"
+            className="text-3xl text-white hover:text-blue-600 "
+          >
+            <FaSkype />
+          </a>
+        </div>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://drive.google.com/file/d/1pZ7vWqyOEkaBUdlsN-HYesODMDDEXXIA/view?usp=sharing"
         >
-          <button class="btn btn-outline-success px-4">Download Resume</button>
+          <button className="mt-6 px-6 py-3 bg-green-500 text-white rounded-md hover:bg-green-600 hover:text-gray-900 text-xl">
+            Download Resume
+          </button>
         </a>
       </div>
-      <div class="col-lg-6">
+      <div className="md:w-1/2 lg:pl-14">
         <img
-          class="img-fluid rounded-circle img-thumbnail w-50 my-5"
-          src={banner}
-          alt=""
+          className="rounded-lg max-w-md object-cover mx-auto my-5"
+          src={programer}
+          alt="Profile"
         />
       </div>
     </div>

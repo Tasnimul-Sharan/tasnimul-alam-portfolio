@@ -3,73 +3,97 @@
       "_id": "62a33adc8d8860f1f645fa90",
       "picture": "https://i.ibb.co/RcLrmGZ/Java-Script.jpg",
       "name": "JavaScript", 
-      "now": 86
+      "now": 90
       
-    },
-    {
-      "_id": "62a33adc8d8860f1f645fa90",
-      "picture": "https://i.ibb.co/GcC3g1n/logo192.png",
-      "name": "React", 
-      "now": 88
     },
     {
       "_id": "62a33adc6b2462ec2b3d1f86",
       "picture": "https://i.ibb.co/BzB8jmW/HTML.png",
       "name": "HTML", 
-      "now": 86
+      "now": 100
     },
     {
       "_id": "62a33adc8ace5048528d574b",
       "picture": "https://i.ibb.co/PxTD2cd/CSS.png",
       "name": "CSS", 
-      "now": 89
+      "now": 95
     },
     {
-      "_id": "62a33adcd72ed5c582db1917",
-      "picture": "https://i.ibb.co/h2qKKFX/Boot-Strap.png",
-      "name": "BootStrap", 
+      "_id": "62a33adc8d8860f1f645fa90",
+      "picture": "https://i.ibb.co/GcC3g1n/logo192.png",
+      "name": "React", 
+      "now": 90
+    },
+    {
+      "_id": "62a33adc8d8860f1f645fa92",
+      "picture": "https://i.ibb.co/5jd4fkb/react-1024x1024.png",
+      "name": "React Native", 
+      "now": 85
+    },
+    {
+      "_id": "62a33adc8d8860f1f645fa92",
+      "picture": "https://i.ibb.co/qgfZmJ4/nextjs-1024x1024.png",
+      "name": "Next Js", 
       "now": 90
     },
     {
       "_id": "62a33adc35ab18eb13bb8858",
       "picture": "https://i.ibb.co/7g0N7Lv/Tailwind-Css.jpg",
       "name": "Tailwind CSS", 
-      "now": 86
+      "now": 95
     },
     {
-      "_id": "62a33adc6b2462ec2b3d1f86",
-      "picture": "https://i.ibb.co/GpsccvT/Firebase.png",
-      "name": "Firebase", 
-      "now": 88
+      "_id": "62a33adc8d8860f1f645fa92",
+      "picture": "https://i.ibb.co/4Z73NQB/images-1.png",
+      "name": "Ant design", 
+      "now": 90
+    },
+    {
+      "_id": "62a33adc35ab18eb13bb8858",
+      "picture": "https://i.ibb.co/RvrjJT9/download-4.png",
+       "name": "Daisy Ui", 
+      "now": 100
+    },
+    {
+      "_id": "62a33adcd72ed5c582db1917",
+      "picture": "https://i.ibb.co/h2qKKFX/Boot-Strap.png",
+      "name": "BootStrap", 
+      "now": 100
     },
     {
       "_id": "62a33adc8ace5048528d574b",
       "picture": "https://i.ibb.co/k2KJ0GM/Expressjs.png",
       "name": "Expressjs", 
-      "now": 80
+      "now": 90
     },
     {
       "_id": "62a33adcd72ed5c582db1917",
       "picture": "https://i.ibb.co/nb4WNjr/Nodejs.png",
        "name": "Nodejs", 
-      "now": 80
+      "now": 90
     },
     {
       "_id": "62a33adc35ab18eb13bb8858",
       "picture": "https://i.ibb.co/Cv22bkK/MongoDB.jpg",
        "name": "MongoDB", 
-      "now": 80
+      "now": 90
     },
     {
       "_id": "62a33adcd72ed5c582db1917",
-      "picture": "https://cdn-icons-png.flaticon.com/512/873/873120.png?w=740",
-       "name": "Heroku", 
+      "picture": "https://i.ibb.co/wy5hXPs/sql-database-generic-760x1024.png",
+       "name": "SQL", 
+      "now": 90
+    },
+    {
+      "_id": "62a33adc6b2462ec2b3d1f86",
+      "picture": "https://i.ibb.co/GpsccvT/Firebase.png",
+      "name": "Firebase", 
       "now": 90
     },
     {
       "_id": "62a33adc35ab18eb13bb8858",
-      "picture": "https://v4.mui.com/static/logo.png",
-       "name": "Metrarial Ui", 
-      "now": 75
+      "picture": "https://i.ibb.co/jrkk5vR/vercel-512x449.png",
+       "name": "Vercel", 
+      "now": 100
     }
   ]

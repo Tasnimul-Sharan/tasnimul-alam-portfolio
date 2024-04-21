@@ -1,10 +1,10 @@
 import React from "react";
-import { FaFacebookSquare, FaGithub, FaLinkedin, FaSkype, FaYoutube } from 'react-icons/fa';
+import { FaFacebookSquare, FaLinkedin, FaSkype, FaYoutube } from 'react-icons/fa';
 
 
 const Footer = () => {
   return (
-    <div className="text-center bg-slate-950 text-white py-8">
+    <div className="text-center bg-gray-950 text-white py-10">
     <p className="text-lg">
       Copyright © {new Date().getFullYear()} All rights reserved.
     </p>
@@ -19,7 +19,7 @@ const Footer = () => {
         <FaFacebookSquare size={32} />
       </a>
       <a
-        href="https://www.linkedin.com/in/tasnimul-alam-32b70a182/"
+        href="#your-linkedin-link"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-600 mx-2"
@@ -40,7 +40,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         className="text-white hover:text-red-700 mx-2"
       >
-        <FaGithub size={32} />
+        <FaYoutube size={32} />
       </a>
     </div>
   </div>

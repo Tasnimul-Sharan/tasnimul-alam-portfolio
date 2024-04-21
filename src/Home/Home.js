@@ -1,8 +1,4 @@
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import Blogs from "../Blogs/Blogs";
-import Contract from "../Contract/Contract";
 import About from "./About";
 import Arrow from "./Arrow";
 import Banner from "./Banner";
@@ -11,19 +7,22 @@ import Projects from "./Projects";
 import Services from "./Services";
 import Skills from "./Skills";
 import Achivements from "./Achivements";
-
+import Contact from "../Contact/Contact";
+import Experiences from "./Experiences";
+import FQA from "./FQA";
 const Home = () => {
   return (
-    <div className="container-fluid">
+    <div>
       <Banner />
       <About />
+      <Experiences />
       <Facts />
       <Skills />
-      {/* <Services />  */}
+      <Services /> 
       <Projects />
       <Achivements />
-      <Blogs />
-      <Contract />
+      <FQA />
+      <Contact />
       <Arrow></Arrow>
     </div>
   );
