@@ -107,7 +107,7 @@ const Contact = () => {
   return (
     <section className="py-16 bg-slate-900">
       <div className="container mx-auto text-white">
-      <h1 className="text-primary text-4xl text-center mb-4">Get in Touch</h1>
+      <h1 className="ext-4xl text-center mb-4">Get in Touch</h1>
 <h3 className="text-info text-2xl text-center mb-8">Keep Connected with Me</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center">
           <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
@@ -123,9 +123,9 @@ const Contact = () => {
             <div className="mb-4">
               <input
                 type="text"
-                name="user_name"
+                name="name"
                 placeholder="Enter Name"
-                className="w-full py-2 px-4 border rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-full py-2 px-4 border rounded-lg focus:outline-none text-black font-medium focus:border-blue-500"
                 required
               />
             </div>
@@ -134,7 +134,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="Enter Email"
-                className="w-full py-2 px-4 border rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-full py-2 px-4 border rounded-lg focus:outline-none text-black font-medium focus:border-blue-500"
                 required
               />
             </div>
@@ -143,7 +143,7 @@ const Contact = () => {
                 name="message"
                 rows="4"
                 placeholder="Message"
-                className="w-full py-2 px-4 border rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-full py-2 px-4 border rounded-lg text-black font-medium focus:outline-none focus:border-blue-500"
                 required
               ></textarea>
             </div>
