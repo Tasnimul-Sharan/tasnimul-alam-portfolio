@@ -107,7 +107,7 @@ const Contact = () => {
   return (
     <section className="py-16 bg-slate-900 relative">
       <div className="container mx-auto text-white">
-      <h1 className="ext-4xl text-center mb-4">Get in Touch</h1>
+      <h1 className="text-4xl text-center mb-4">Get in Touch</h1>
 <h3 className="text-info text-2xl text-center mb-8">Keep Connected with Me</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center">
           <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
