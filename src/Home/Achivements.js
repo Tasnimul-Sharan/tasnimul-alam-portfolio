@@ -55,7 +55,7 @@ import { FaTrophy, FaCertificate } from "react-icons/fa";
 
 const Achievements = () => {
   return (
-    <section className="bg-slate-900 via-pink-500 to-red-500 py-16 text-gray-100">
+    <section className="bg-slate-900 via-pink-500 to-red-500 py-16 text-gray-100 relative">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center mb-10">
           <h1 className="text-4xl font-bold">My Achievements</h1>
@@ -69,7 +69,7 @@ const Achievements = () => {
           >
             <img
               src={BlackBelt}
-              className="max-w-xl mx-auto rounded-t-lg"
+              className="md:max-w-md mx-auto rounded-t-lg "
               alt="Black Belt"
             />
             <div className="p-6 text-center">
@@ -87,7 +87,7 @@ const Achievements = () => {
           >
             <img
               src={Certificate}
-              className="max-w-xl mx-auto rounded-t-lg"
+              className="md:max-w-md mx-auto rounded-t-lg"
               alt="Certificate"
             />
             <div className="p-6 text-center">

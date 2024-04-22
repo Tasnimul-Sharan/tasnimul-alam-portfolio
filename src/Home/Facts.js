@@ -75,10 +75,10 @@ AOS.init();
 const Facts = () => {
   return (
     
-    <section className="bg-gray-900 text-white py-16">
+    <section className="bg-gray-900 text-white py-10 relative">
       <div className="container mx-auto">
         <h1 className="text-3xl font-semibold text-info mb-8">Facts</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:mx-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-10">
           <div
             className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg p-10 flex items-center justify-center"
             data-aos="fade-up"

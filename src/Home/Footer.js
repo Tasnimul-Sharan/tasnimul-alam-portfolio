@@ -4,7 +4,7 @@ import { FaFacebookSquare, FaGithub, FaLinkedin, FaSkype, FaYoutube } from 'reac
 
 const Footer = () => {
   return (
-    <div className="text-center bg-gray-950 text-white py-10">
+    <div className="text-center bg-gray-950 text-white py-10 relative">
     <p className="text-lg">
       Copyright © {new Date().getFullYear()} All rights reserved.
     </p>

@@ -9,7 +9,7 @@ FaSkype,
 
 const About = () => {
   return (
-    <section className="bg-gray-900 text-white py-16">
+    <section className="bg-gray-900 text-white py-16 relative">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
         <div className="lg:w-1/2 text-justify">
           <img
