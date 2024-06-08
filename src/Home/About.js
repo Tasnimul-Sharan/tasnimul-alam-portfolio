@@ -14,41 +14,9 @@ const About = () => {
         <div className="lg:w-1/2 text-justify">
           <img
             src={about}
-            className="rounded-3xl w-72 h-72 object-cover mx-auto"
+            className="rounded-3xl w-72 h-auto object-cover mx-auto"
             alt="Profile"
           />
-           {/* <div className="mt-5 flex">
-            <a
-              href="https://www.facebook.com/your-facebook-profile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl text-blue-500 hover:text-blue-700 mr-4"
-            >
-              <FaFacebookSquare />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/your-linkedin-profile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl text-blue-500 hover:text-blue-700 mr-4"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://github.com/your-github-profile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl text-blue-500 hover:text-blue-700 mr-4"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="skype:your-skype-id?chat"
-              className="text-2xl text-blue-500 hover:text-blue-700"
-            >
-              <FaSkype />
-            </a>
-          </div> */}
         </div>
         <div className="lg:w-1/2 text-center lg:text-left lg:pl-12">
           <h1 className="text-3xl font-bold text-primary mb-6">About Me</h1>

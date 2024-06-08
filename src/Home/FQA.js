@@ -1,13 +1,40 @@
 import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import { FaChevronDown  } from 'react-icons/fa';
 
+// const AccordionItem = ({ header, ...rest }) => (
+//   <Item
+//     {...rest}
+//     header={({ state: { isEnter } }) => (
+//       <>
+//           <h3 className="text-lg font-semibold">{header}</h3>
+//         <div
+//           className={`ml-auto transition-transform duration-200 ease-out ${
+//             isEnter && "rotate-180"
+//           }`}
+//         ><FaChevronDown /></div>
+          
+//       </>
+//     )}
+//     className="border-b"
+//     buttonProps={{
+//       className: ({ isEnter }) =>
+//         `flex w-full p-2 text-left hover:bg-slate-100 ${
+//           isEnter && "bg-slate-200"
+//         }`
+//     }}
+//     contentProps={{
+//       className: "transition-height duration-200 ease-out"
+//     }}
+//     panelProps={{ className: "p-4" }}
+//   />
+// );
 
 const AccordionItem = ({ question, ...rest }) => (
   <Item
     {...rest}
     header={({ state: { isEnter } }) => (
       <>
-        <span>{question}</span>
+          <h3 className="text-lg">{question}</h3>
         <div
           className={`ml-auto transition-transform duration-200 ease-out ${
             isEnter && "rotate-180"

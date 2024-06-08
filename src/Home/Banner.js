@@ -95,7 +95,7 @@ const Banner = () => {
     );
   
   return (
-    <div className="bg-gray-950 text-white py-16 px-5 md:flex md:items-center relative">
+    <div className="bg-gray-950 text-white py-7 px-5 md:flex md:items-center relative">
         {init && (
         <Particles
           id="tsparticles"
