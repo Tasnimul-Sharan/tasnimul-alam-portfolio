@@ -114,7 +114,7 @@ const Banner = () => {
             }}
           />
         </h1>
-        <div className="mt-4 space-x-4 flex">
+        <div className="mt-4 space-x-4 flex ">
           <a
             href="https://www.facebook.com/tasnimul.sharan.397"
             target="_blank"

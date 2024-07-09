@@ -239,9 +239,9 @@ const ProjectDetails = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-8">
+    <section className="bg-gray-100 text py-8">
       <div className="container mx-auto">
-        <h1 className="text-2xl font-semibold text-primary mb-8">
+        <h1 className="text-2xl font-semibold  mb-8">
           Project Details
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -264,8 +264,8 @@ const ProjectDetails = () => {
           </div>
 
           <div className="lg:col-span-1 bg-white rounded-lg p-6 shadow-md">
-            <h5 className="text-xl text-justify font-semibold mb-4">{projects.name}</h5>
-            <ul className="list-disc text-justify pl-6">
+            <h5 className="text-xl text-justify text-slate-700 font-semibold mb-4">{projects.name}</h5>
+            <ul className="list-disc text-justify text-slate-600 hover:text-slate-600 pl-6">
               <li>{projects.detailsOne}</li>
               <li>{projects.detailsTwo}</li>
               <li>{projects.detailsThree}</li>
