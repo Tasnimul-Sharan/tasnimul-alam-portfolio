@@ -25,7 +25,7 @@ const Facts = () => {
             <FaCode className="text-4xl text-primary mr-10" />
             <div>
               <h1 className="text-xl font-bold">20+</h1>
-              <p className="text-sm">Technologies Used</p>
+              <p className="text-sm">Technology Used</p>
             </div>
           </div>
           <div
@@ -61,7 +61,7 @@ const Facts = () => {
           >
             <FaRegClock className="text-4xl text-primary mr-10" /> 
             <div>
-              <h1 className="text-xl font-bold">1</h1>
+              <h1 className="text-xl font-bold">1+</h1>
               <p className="text-sm">Years of Experience</p>
             </div>
           </div>
